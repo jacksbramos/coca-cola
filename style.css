@@ -57,6 +57,9 @@ main{
 
 
 footer{
-    background-color: purple;
     height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 75px;
 }
