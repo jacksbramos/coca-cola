@@ -1,0 +1,52 @@
+
+22/08/23
+Unidades de medida
+
+PX: unidade absoluta
+VH: altura da tela
+VW: largura da tela
+%: remete ao pai dele
+em: unidade que se baseia no pai
+rem: unidade que se baseia no navegador (segue o que o usuário do site quer)
+O mais utilizado por questões de configurações é o rem.
+Medida padrão do navegador 16px.
+
+Padding: (25px); serve para todos os lados a mesma medida. 
+Padding: 10px (em cima e embaixo) 25px (direita e esquerda) (10px 25px);
+Padding: (10px 20px 30px 40px); - medidas colocadas apenas com espaço dentro dos parênteses (cada lado com sua medida)
+
+O README é o seu portfólio.
+Segue abaixo comando para formatação dentro do Visual Code.
+#COCA-COLA
+![](./IMG/coca-cola-preview.png)
+
+Primeiro Website crido, do tipo landing page, para treino no desenvolvimento de sites.
+O site foi desenvolvido usando boas práticas, como por exmplo tags semânticas e responsividade.
+
+>Atualizações do código (o que foi modificado). CSS.
+
+
+
+> Continuação do código. (CSS)
+
+footer div{
+    width: 64px;
+}
+
+@media(max-width:768px){
+    header{
+        padding-left: 25px;  
+    }
+    .content-text{
+        transform: translateX(0%);
+        top: 80px;
+        font-size: 1rem;
+        width: 100px;
+        text-align: center;
+    }
+    .content-image{
+        height: 75vh;
+    }
+    footer{
+        padding: 0px 25px;
+    }
