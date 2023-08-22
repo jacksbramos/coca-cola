@@ -54,6 +54,9 @@ main{
     transform: translateX(-100%);
     text-align: end;
  }
+ .content-image{
+    height: 85vh;
+ }
 
 
 footer{
@@ -62,4 +65,10 @@ footer{
     justify-content: end;
     align-items: center;
     padding-right: 75px;
+    padding-left: 75px;
+    color: #ffffff;
+    font-weight: 100;    
+}
+footer div{
+    width: 64px;
 }
